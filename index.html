@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSV to JSON with Drag and Drop</title>
+
+
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+  <body>
+    <div class="container">
+      <div class=col-lg-12>
+        <div id="drop_zone" onclick="dropzoneClick()" accept=".csv" class="well">
+          <center>
+            <h1><i class="fa-cloud-upload"></i> Drop Your file Here (or click)</h1>
+          </center>
+        </div>
+        <input type="file" name="file[]" id="file" class="hide" multiple="multiple" />
+      </div>
+    </div>
+  </body>
+  <div id="chartContainer" style="width: 860px; margin: 0 auto;"></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.4.0/papaparse.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+
+  <script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

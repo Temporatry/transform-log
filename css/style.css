@@ -1,0 +1,32 @@
+
+.chartRadarDiv{
+  width:400px;
+  height:auto;
+  clear: both;
+  float: left;
+}
+#drop_zone.fileHover {
+  box-shadow: 0 0 16px rgb(49, 49, 49);
+}
+
+.logout{
+  float:right;
+  margin-right: 40px; 
+}
+
+.reStart{
+  display:none;
+}
+
+.lineChartContainer{
+  height: 360px; 
+  width: 650px;
+  padding-right: 180px;
+  
+}
+
+.radarBarContainer{
+  float: left;
+  padding: 0 60px;
+  display: none;
+}
